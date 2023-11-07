@@ -167,6 +167,24 @@ header .wrapper .btn p {
 
 /*==== MAIN CONTENT ====*/
 
+.main-bgc {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 100, 245, 0.05) 0%,
+      rgba(0, 100, 245, 0.05) 100%
+    ),
+    #fff;
+  padding-bottom: 120px;
+}
+
+hr {
+  width: 1170px;
+  border: 1px solid #071b31;
+  opacity: 0.08;
+  background: #071b31;
+  margin: 80px auto;
+}
+
 /* Context */
 .mb-32px {
   margin-bottom: 32px;
@@ -204,6 +222,12 @@ header .wrapper .btn p {
 }
 
 /* Context */
+.functionality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
 
 .functionality h1 {
   text-align: center;
@@ -230,7 +254,7 @@ header .wrapper .btn p {
   gap: 30px;
 }
 
-.functional-text h4 {
+.functional-text h2 {
   color: #f5b102;
   font-size: 18px;
   font-style: normal;
@@ -254,6 +278,97 @@ header .wrapper .btn p {
   opacity: 0.85;
   font-weight: 500;
   line-height: 150%;
+}
+
+.functional-text h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.functional-text p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  opacity: 0.85;
+}
+
+.mt-16px {
+  margin-top: 16px;
+}
+
+.mr-12px {
+  margin-right: 12px;
+}
+
+.mb-80px {
+  margin-bottom: 80px;
+}
+
+.project-info-box {
+  padding: 16px;
+  border-radius: 0px 0px 8px 8px;
+  border: 1px solid #e8edf0;
+  background: #fff;
+}
+
+.project-info-box h1 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 25.2px */
+  margin-bottom: 16px;
+}
+
+.project-info-box p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+}
+
+.mb-120px {
+  margin-bottom: 120px;
+}
+
+.mr-24px {
+  margin-right: 24px;
+}
+
+.re-direct {
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.advertise {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advertise-txt {
+  margin: auto 0;
+  color: #202c38;
+  margin-right: 30px;
+  align-self: stretch;
+}
+
+.advertise .advertise-txt h1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.advertise .advertise-txt p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  opacity: 0.85;
 }
 
 /*==== FOOTER ====*/
